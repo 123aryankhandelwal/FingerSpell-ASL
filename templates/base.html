@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/styles.css') }}">
+
+</head>
+
+<body>
+  <section class="showcase">
+    <div class="video-container">
+      <video src="{{ url_for('static',filename='assets/voice1.mp4') }}" muted loop autoplay></video>
+      <div class="overlay"></div>
+    </div>
+    <div class="content">
+      <br><br><br><br><br><br>
+      <h1>FingerSpell-ASL</h1>
+      <h2><br><br><br>
+        <b>About 5% population in world are suffering from hearing loss. Deaf and dumb people<br> 
+        use sign language as their primary means to express their thoughts and ideas to the<br>
+        people around them with different hand and body gestures. We present our trained <br>
+        recognizer to reduce the communication gap between the physically challenged and <br>
+        the normal people.It enables the physically challenged to communicate easily with<br>
+        normal people using American sign language and helps normal people to recognize <br>
+        different gestures based signs.</b></h2>
+      <a href="#about" class="btn">Try Yourself</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  {% block body %} {% endblock %}
+
+</section>
+</body>
+
+</html>

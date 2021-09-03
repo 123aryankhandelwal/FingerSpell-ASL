@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<section id="about"  >
+  <h2 class="logo"><img src="{{ url_for('static',filename='assets/stephen2.jpg') }}" width="1800px" height="942px" ></b></h2>
+  <a href="/" target="self"><button id="button" id="but">Home</button></a>
+  <a href="/capture" target="self"><button id="button" id="but">Capture</button></a>
+  <a href="/Process" target="self"><button id="button" id="but">Process</button></a>
+  <a href="/translate" target="_blank"><button id="button">Translate</button></a>
+  {% endblock %}
