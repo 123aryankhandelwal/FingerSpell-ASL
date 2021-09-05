@@ -4,6 +4,23 @@ The CNN is trained on a custom dataset containing alphabets A-Y (excluding J) of
 
 ## Usage 
 
+### To run from Website
+
+#### capture button 
+This is used to dd new gueture to our language.
+Set up the path in the server.py @route /capture
+Place your hand in the green box and press C to start capturing the data.
+
+#### process button
+This is to process the capture image and make it into tresh image
+Now set up the paths in server.py @route /process to preprocess the dataset.
+After preprocessing set up the path in model.py file to get the preprocessed data for training.
+
+#### translate button
+After preprocessing set up the path in model.py file to get the preprocessed data for training.
+This will create model-<val_acc>.h5 files. Choose the appropriate file for Gesture_recognize_sign.py
+
+
 ### To run the pretrained model
 
 Run:
@@ -51,6 +68,9 @@ Then Run:
 python Gesture_recognize_sign.py
 ```
 
-## Demo
-
-![Demo]( ./Demo.gif )
+## screenshots
+![Test Image 1](https://github.com/123aryankhandelwal/FingerSpell-ASL/blob/main/Images/1.gif)
+![Test Image 2](https://github.com/123aryankhandelwal/FingerSpell-ASL/blob/main/Images/1.gif)
+![Test Image 3](https://github.com/123aryankhandelwal/FingerSpell-ASL/blob/main/Images/1.gif)
+![Test Image 4](https://github.com/123aryankhandelwal/FingerSpell-ASL/blob/main/Images/1.gif)
+![Test Image 5](https://github.com/123aryankhandelwal/FingerSpell-ASL/blob/main/Images/1.gif)
