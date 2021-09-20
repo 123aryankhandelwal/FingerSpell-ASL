@@ -68,7 +68,7 @@ Then Run:
 python Gesture_recognize_sign.py
 ```
 
-## screenshots
+## screenshots.
 ![Test Image 1](https://github.com/123aryankhandelwal/FingerSpell-ASL/blob/main/Images/1.gif)
 ![Test Image 2](https://github.com/123aryankhandelwal/FingerSpell-ASL/blob/main/Images/2.png)
 ![Test Image 3](https://github.com/123aryankhandelwal/FingerSpell-ASL/blob/main/Images/3.png)
