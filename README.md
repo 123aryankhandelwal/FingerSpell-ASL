@@ -1,6 +1,6 @@
 # FingerSpell-ASL
 
-The CNN is trained on a custom dataset containing alphabets A-Y (excluding J) of American Sign Language.
+The CNN is trained on a custom dataset containing alphabets A-Y (excluding J) of American Sign Language
 
 ## Usage 
 
