@@ -6,22 +6,22 @@ The CNN is trained on a custom dataset containing alphabets A-Y (excluding J) of
 
 ### To run from Website
 
-#### capture button 
+#### Capture Button 
 This is used to dd new gueture to our language.
 Set up the path in the server.py @route /capture
 Place your hand in the green box and press C to start capturing the data.
 
-#### process button
+#### Process Button
 This is to process the capture image and make it into tresh image
 Now set up the paths in server.py @route /process to preprocess the dataset.
 After preprocessing set up the path in model.py file to get the preprocessed data for training.
 
-#### translate button
+#### Translate Button
 After preprocessing set up the path in model.py file to get the preprocessed data for training.
 This will create model-<val_acc>.h5 files. Choose the appropriate file for Gesture_recognize_sign.py
 
 
-### To run the pretrained model
+### To run the pre-trained model
 
 Run:
 
